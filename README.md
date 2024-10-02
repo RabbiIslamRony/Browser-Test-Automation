@@ -18,3 +18,9 @@ Test in Safari (WebKit)
 
 ```bash
 npm run test:safari
+
+
+
+## Important Message
+
+Playwright is a powerful tool for cross-browser testing, enabling developers to test their websites in multiple browsers, including Safari, without needing a physical macOS device. This is particularly beneficial for Windows users, as it eliminates the need for costly solutions or complicated setups. Playwright allows for seamless emulation of WebKit, ensuring sites are compatible across different platforms and enhancing the overall testing process.
