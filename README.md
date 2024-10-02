@@ -18,8 +18,24 @@ Test in Safari (WebKit)
 
 ```bash
 npm run test:safari
+```
 
 
+## Example: Browser Test with Playwright
+
+Here is an example Playwright test script to help you test browser functionality:
+
+```javascript
+import { test } from '@playwright/test';
+
+test('test browser', async ({ page }) => {
+  // Point this to wherever you want
+  await page.goto('https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select');
+
+  // Keep browser open
+  await page.pause();
+});
+```
 
 ## Important Message
 
